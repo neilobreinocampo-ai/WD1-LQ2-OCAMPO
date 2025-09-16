@@ -11,11 +11,11 @@ body { /* these line of codes dictates the global style of the html code */
 }
 .nav-list { /* Navbar List Styles */
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 .nav-center-group { /* these lines of codes centers the nav bar */
   display: flex;
@@ -58,14 +58,14 @@ body { /* these line of codes dictates the global style of the html code */
   background: orange;
 }
 .dropdown-content {
-  display: none;
   position: absolute;
-  background: #1c232e;
-  min-width: 160px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   z-index: 1;
+  display: none;
   top: 100%;
   right: 0;
+  background: #1c232e;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  min-width: 160px;
 }
 .dropdown-content a {
   color: #fff;
@@ -161,18 +161,18 @@ body { /* these line of codes dictates the global style of the html code */
   margin: auto;
 }
 .footer-bar { /* This line of code styles the footer bar */
-  width: 100%;
-  padding: 12px 0;
   background: #1c232e;
+  left: 0;
   border-top: 1px solid #e0e0e0;
   bottom: 0;
-  left: 0;
+  padding: 12px 0;
+  width: 100%;
 }
 .footer { /* This line of code styles the footer*/
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
   font-family: Arial, sans-serif;
   font-size: 0.9rem;
   color: #ffffff;
+  max-width: 1100px;
+  text-align: center;
+  margin: 0 auto;
 }
