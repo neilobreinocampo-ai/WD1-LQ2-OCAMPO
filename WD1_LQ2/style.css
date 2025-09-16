@@ -1,0 +1,178 @@
+body { /* these line of codes dictates the global style of the html code */
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(88, 141, 159);
+}
+
+.navbar { /* Navbar Styles */
+  position: sticky;
+  top: 0;
+  background: #5262b3;
+}
+.nav-list { /* Navbar List Styles */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-center-group { /* these lines of codes centers the nav bar */
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 0;
+}
+.nav-left {
+  margin-right: auto;
+}
+.nav-right {
+  margin-left: auto;
+}
+.item1 {
+  background-color: #5262b3;
+  border-right: 1px solid #fff;
+}
+.item2 {
+  background-color: #5262b3;
+  border-right: 1px solid #fff;
+}
+.item3 {
+  background-color: #5262b3;
+  border-right: 1px solid #fff;
+}
+.nav-list li { 
+  position: relative;
+  list-style: none;
+}
+.nav-list a { /* these line of codes styles the links in the nav bar */
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background 0.2s;
+}
+.nav-list a:hover { /* this line of code changes the background color when the user hover their cursor*/
+  background: orange;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #1c232e;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%;
+  right: 0;
+}
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: normal;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.sidebar {
+  position: sticky;
+  top: 0px;
+  float: right;
+  width: 280px; 
+  height: fit-content;
+  background-color: rgb(85, 60, 15);
+  border-radius: 8px;
+  padding: 16px;
+  padding: 0; 
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.profile-overview {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.profile-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.name {
+  font-size: 1.25rem;
+  margin: 4px 0;
+}
+.username {
+  font-size: .9rem;
+  color: lightblue;
+  margin: 4px 0;
+}
+.joined-date,
+.birthday,
+.address {
+  font-size: .85rem;
+  color: #ffffff;
+  margin: 4px 0;
+}
+.friends-list h3 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+.friends-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.friend-item { /* This line of code styles each friend item in the friends list */
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.friend-item img { /* This line of code styles the friend's profile picture */
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+.friend-info .friend-name {   /* This line of code styles the friend's name */
+  font-weight: bold;
+  font-size: .95rem;
+}
+.friend-info .friend-username { /* This line of code styles the friend's username */
+  font-size: .85rem;
+  color: lightblue;
+}
+.post-cards { /* This line of code styles the post card */
+  background: #1c232e;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  max-width: 600px;
+  color: #fff;
+}
+.post-cards img { /* This line of code styles the image inside the post card */
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.footer-bar { /* This line of code styles the footer bar */
+  width: 100%;
+  padding: 12px 0;
+  background: #1c232e;
+  border-top: 1px solid #e0e0e0;
+  bottom: 0;
+  left: 0;
+}
+.footer { /* This line of code styles the footer*/
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
